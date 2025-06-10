@@ -81,7 +81,7 @@ const WaypointMarkers = (props: FlightPlanProps) => {
       markers.push(
         <WaypointMarker
           key={idx}
-          number={idx-1}
+          number={idx}
           waypoint={p}
           flight={props.flight}
         />
